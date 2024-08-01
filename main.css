@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #525252;
+}
+
+/* left side */
+.col-lg-7 {
+    height: 703px;
+}
+
+/* Right side */
+.col-lg-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.login {
+    width: 55%;
+}
+
+.login-input {
+    width: 100%;
+    text-align: left;
+}
+
+.login-input-head h1 {
+    font-size: 22px;
+    font-weight: 550;
+    line-height: 30px;
+}
+
+.login-input-head p {
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: -8px;
+}
+
+.login-input-head button {
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #daecda;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+button.google-para:hover {
+    background-color: #f3ebf0;
+}
+
+.google-para p {
+    margin-top: 6px;
+    height: 5px;
+}
+
+/* separater */
+.separater span {
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    color: #A1A1A1;
+}
+
+/* form input field */
+.form-grop label {
+    font-size: 12px;
+}
+
+.form-grop input {
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid #daecda;
+}
+
+input::placeholder {
+    font-size: 11px;
+    color: #daecda;
+}
+
+input {
+    accent-color: #7F265B;
+}
+
+.check-box-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.check-box label {
+    margin-left: 10px;
+}
+
+.forgot a {
+    color: #7F265B;
+    font-weight: 600;
+    line-height: 12px;
+    text-decoration: none;
+}
+
+.btn1 {
+    width: 100%;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 30px;
+    background-color: #7F265B;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.btn1:hover {
+    background-color: #a2417b;
+}
+
+.new-sign {
+    font-size: 12px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.new-sign a {
+    margin-left: 8px;
+}
+
+@media all and (max-width : 995px) {
+    .col-lg-7 {
+        z-index: -1;
+    }
+
+    .col-lg-5 {
+        z-index: 1;
+        background-color: rgba(255, 255, 255, 0.9);
+        position: absolute;
+        left: 150px;
+        top: 80px;
+        display: flex;
+        justify-content: center;
+        border-radius: 15px;
+    }
+}
+
+@media all and (max-width :576px) {
+    .col-lg-5 {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        border-radius: 0px;
+    }
+}
