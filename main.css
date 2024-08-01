@@ -3,10 +3,13 @@
     font-family: sans-serif;
     color: #525252;
 }
+/* body{
+    height: 100%;
+} */
 
 /* left side */
 .col-lg-7 {
-    height: 703px;
+    height:100%;
 }
 
 /* Right side */
